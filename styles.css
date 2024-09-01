@@ -28,19 +28,6 @@ input[type="text"]{
     border-radius: 5px;
 }
 
-button{
-    padding: 10px 20px;
-    border: none;
-    background: #13C1E6;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover{
-    background: #0D8CA7;
-}
-
 ul{
     list-style-type: none;
     padding: 0;
@@ -54,4 +41,49 @@ li{
     border-radius: 5px;
     text-align: center;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-note-button {
+    background-color: #4CAF50; /* Cambia el color del botón */
+    color: white;
+}
+
+.note-action-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336; /* Color rojo para el botón de eliminar */
+}
+
+.edit-button {
+    background-color: #008CBA; /* Color azul para el botón de editar */
+}
+
 
